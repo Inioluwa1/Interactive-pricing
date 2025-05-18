@@ -1,0 +1,41 @@
+.MainPage{
+  /* border: 3px solid; */
+  position: relative;
+  top: -10rem;
+  width: 40%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 5px 5px 20px hsl(225, 20%, 60%), -2px -2px 20px hsl(225, 20%, 60%);
+  background-color: white;
+  margin-bottom: 10rem;
+}
+
+.DetailsnButton{
+  /* border: 3px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Details{
+  /* border: 3px solid; */
+  display: flex;
+  align-items: center;
+}
+.Details img{
+  margin-right: 1rem;
+  height: 1rem;
+  width: 1.2rem;
+}
+.Details p{
+  color: rgb(133, 143, 173)
+}
+
+.DetailsnButton button{
+  padding: 0.7rem 3rem;
+  border-radius: 20px;
+  color: rgb(205, 215, 238);
+  background-color: rgb(41, 51, 86);
+  border: none;
+  cursor: pointer;
+}
