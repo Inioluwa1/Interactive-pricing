@@ -1,4 +1,4 @@
-const Options = [
+const Packages = [
   {
     id: 1,
     title: '10K',
@@ -26,4 +26,4 @@ const Options = [
   },
 ]
 
-export default Options;
+export default Packages;

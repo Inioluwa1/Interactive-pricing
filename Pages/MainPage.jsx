@@ -1,11 +1,12 @@
 import React from 'react'
 import './MainPage.css'
 import Details from './Details'
+import PackageSlider from './PackageSlider'
 
 export default function MainPage() {
   return (
     <div className="MainPage">
-      
+      <PackageSlider />
 
       <div className='DetailsnButton'>
         <div>
@@ -20,4 +21,4 @@ export default function MainPage() {
       </div>
     </div>
   )
-}
+} 

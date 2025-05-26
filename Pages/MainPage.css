@@ -1,8 +1,8 @@
 .MainPage{
-  /* border: 3px solid; */
+  border: 3px solid;
   position: relative;
-  top: -10rem;
-  width: 40%;
+  top: -12rem;
+  width: 35%;
   margin: auto;
   border-radius: 10px;
   padding: 2rem;
@@ -40,4 +40,8 @@
   background-color: rgb(41, 51, 86);
   border: none;
   cursor: pointer;
+}
+.DetailsnButton button:hover{
+  background-color: rgb(9, 17, 62);
+  color: white;
 }
