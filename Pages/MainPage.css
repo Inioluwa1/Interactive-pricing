@@ -21,6 +21,8 @@
   /* border: 3px solid; */
   display: flex;
   align-items: center;
+  padding: 0.5rem 1.5rem 0.5rem 0;
+  width: auto;
 }
 .Details img{
   margin-right: 1rem;
@@ -32,7 +34,7 @@
 }
 
 .DetailsnButton button{
-  padding: 0.7rem 3rem;
+  padding: 1rem 3rem;
   border-radius: 20px;
   color: rgb(205, 215, 238);
   background-color: rgb(41, 51, 86);
