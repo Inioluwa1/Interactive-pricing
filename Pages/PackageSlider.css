@@ -75,10 +75,59 @@
   margin-right: 0.5rem;
   font-weight: 600;
 }
-.Discount{
+.Discount, .Discount2{
   color: rgb(255, 140, 102);
   padding: 0.2rem 0.5rem;
   background-color: rgba(255, 140, 102, 0.2);
   border-radius: 20px;
   font-weight: 600;
+}
+.Discount2{ 
+  display: none
+}
+
+@media screen and (max-width: 769px) {
+  .PackageSlider{
+    width: 100%;
+    margin: auto;
+  }
+  .TotalDetails{
+    /* border: 3px solid; */
+    flex-direction: column;
+  }
+  .slider{
+    position: relative;
+    bottom: 2.5rem;
+  }
+  
+  .TotalDetails p{
+    font-size: 1rem;
+  }
+
+  .PriceDetails{
+    /* border: 3px solid; */
+    position: relative;
+    top: 3.5rem;
+  }
+  .PriceDetails h3{
+    font-size: 2.5rem;
+    
+  }
+  .PriceDetails p{
+    font-size: 1.2rem;
+  }
+  .ChangePeriod{
+    /* border: 3px solid; */
+    width: 100%;
+    align-items: center;
+  }
+  .Month, .Year, .toggle{
+    margin-right: 0.5rem;
+  }
+  .Discount{
+    display: none;
+  }
+  .Discount2{
+    display: block;
+  }
 }

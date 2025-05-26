@@ -59,6 +59,8 @@ export default function PackageSlider() {
         } 
         <p className='Year'> Yearly Billing </p>
         <p className='Discount'> 25% discount </p>
+        <p className='Discount2'> -25% </p>
+
 
       </div>
     </div>
